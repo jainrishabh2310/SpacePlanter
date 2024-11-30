@@ -1,0 +1,110 @@
+
+body{
+    text-align: center;
+    background: linear-gradient(120deg, #cfbaf0, #ffcfd2); /* Light pink to light purple gradient */
+    font-family: cursive;
+
+}
+.continue-btn {
+    background-color: #4CAF50; /* Green background */
+    color: rgb(17, 121, 121); /* White text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px; /* Space above the button */
+}
+
+
+.continue-btn:hover {
+    background-color: #33a839; /* Darker green on hover */
+}
+
+/* Team Section */
+.team-section {
+    padding: 50px 10px;
+    background-color: #ffffff;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    text-align: center;
+    margin: 10px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.team-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3 {
+    margin-bottom: 10px;
+    font-size: 1.6em;
+}
+
+.card-content p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .team-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        max-width: 100%;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+.services-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.continue-btn{
+    width: 20vw;
+    color: white;
+}
+
+.card{
+    background: linear-gradient(120deg, #8174A0, #ffcfd2); /* Light pink to light purple gradient */
+    color: black;
+}
